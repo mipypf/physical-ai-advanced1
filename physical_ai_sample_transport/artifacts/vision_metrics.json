@@ -1,0 +1,27 @@
+{
+  "device": "cuda",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+  "train_render_scenes": 30,
+  "test_render_scenes": 12,
+  "train_images": 720,
+  "test_images": 288,
+  "test_accuracy": 1.0,
+  "confusion_matrix": [
+    [
+      96,
+      0,
+      0
+    ],
+    [
+      0,
+      96,
+      0
+    ],
+    [
+      0,
+      0,
+      96
+    ]
+  ],
+  "scope": "synthetic marker ID classification; simulator-provided crop locations; no material-property inference or real-world validation"
+}

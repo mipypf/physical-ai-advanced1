@@ -1,0 +1,73 @@
+{
+  "seed": 42,
+  "ai_enabled": true,
+  "grasp": "ideal proximity-gated weld; not friction-only grasp",
+  "localization": "known simulator positions",
+  "robot_sample_contacts": "disabled in this ideal-latch baseline; sample-bench/tray contacts enabled",
+  "results": [
+    {
+      "sample": 0,
+      "true_id": 2,
+      "predicted_id": 2,
+      "confidence": 0.9967857599258423,
+      "latch_gap_m": 4.498980902581995e-05,
+      "lifted_center_z_m": 0.0896085625414789,
+      "final_position_m": [
+        0.09995365050983035,
+        0.05996598318706368,
+        0.023926789186942972
+      ],
+      "target_m": [
+        0.1,
+        0.06,
+        0.024
+      ],
+      "xy_error_m": 5.74927717311632e-05,
+      "success": true
+    },
+    {
+      "sample": 1,
+      "true_id": 1,
+      "predicted_id": 1,
+      "confidence": 0.9946224689483643,
+      "latch_gap_m": 2.5566077614743072e-05,
+      "lifted_center_z_m": 0.08961547121323256,
+      "final_position_m": [
+        0.06497876158670245,
+        0.07995990435563395,
+        0.02392671741889218
+      ],
+      "target_m": [
+        0.065,
+        0.08,
+        0.024
+      ],
+      "xy_error_m": 4.537323987249081e-05,
+      "success": true
+    },
+    {
+      "sample": 2,
+      "true_id": 0,
+      "predicted_id": 0,
+      "confidence": 0.9992559552192688,
+      "latch_gap_m": 4.490716200666942e-05,
+      "lifted_center_z_m": 0.08963070613264022,
+      "final_position_m": [
+        0.02498321481124412,
+        0.0899094467478707,
+        0.023926841828307087
+      ],
+      "target_m": [
+        0.025,
+        0.09,
+        0.024
+      ],
+      "xy_error_m": 9.209578726935633e-05,
+      "success": true
+    }
+  ],
+  "all_success": true,
+  "max_joint_speed_rad_s": 1.0271522851044919,
+  "max_joint_limit_violation_rad": 0.0,
+  "simulation_seconds": 62.50000000003042
+}
